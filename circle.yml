@@ -1,4 +1,9 @@
-jobs:
-test:
- override:
-    - mocha
+{
+  "jobs": {
+    "test": {
+      "override": [
+        "mocha"
+      ]
+    }
+  }
+}
