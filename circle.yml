@@ -10,8 +10,6 @@
 version: 2
 jobs: 
   build:
-    docker:
-    steps:
 
   test:
     override:
